@@ -8,9 +8,9 @@ let newMethod = "new method since ES6";
 //1. Dont uses reserved keywords like let,var and new
 //2. Names should be understandable
 //3. Variables should not start with a number
-//4. Dont uses spaces or hyphen to separate words use camel case instead
+//4. Dont use spaces or hyphen to separate words use camel case instead
 let camelCaseDemoVariable = true;
-// Variables are case sensitive
+// Variables are case-sensitive
 let demoValue = 0
 let DemoValue = 1
 if(demoValue !== DemoValue) {
@@ -33,6 +33,5 @@ console.log("demoVariable = "+demoVariable);
 //Constants stay the same after initialization
 const demoConstant = 0.3; //demoConstant cannot be reassigned
 console.log("demoConstant = "+demoConstant);
-//Best practice: If a Variable should be reassigned use a constant
-//Then use const instead of let
+//Best practice: If a Variable should be reassigned use a constant, then use const instead of let in your code
 //PRIMITIVE TYPES
