@@ -140,4 +140,14 @@ A array is a object
     console.log("demoColor is a "+typeof  demoColors);
     console.log("demoColor has a size of: "+demoColors.length);
 
+###Functions
+When you want to write a function in js you need to use the function keyword
+
+    function demoFunctionOne(amount) {
+        for (i = 0;i <= amount;i++) {
+            console.log("Hello World")
+        }
+    }
+    demoFunctionOne(6);
+
 [Tutorial]: https://youtu.be/W6NZfCO5SIk

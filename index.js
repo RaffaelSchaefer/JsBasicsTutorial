@@ -92,3 +92,10 @@ console.log(demoArrayMixed);
 let demoColors = ["green","red","blue"];
 console.log("demoColor is a "+typeof  demoColors);
 console.log("demoColor has a size of: "+demoColors.length);
+//When you want to write a function in js you need to use the function keyword
+function demoFunctionOne(amount) {
+    for (i = 0;i <= amount;i++) {
+        console.log("Hello World")
+    }
+}
+demoFunctionOne(6);
