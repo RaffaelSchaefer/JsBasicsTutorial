@@ -75,7 +75,7 @@ Variations of Primitive types:
     let number = 30; //Number Literal  
     let bool = true; //Boolean Literal  
     let demoUndefined = undefined; //Undefined  
-    let demoNull = null;/ /Null  
+    let demoNull = null; //Null  
 
 Null is used when a variable should be empty.
 
