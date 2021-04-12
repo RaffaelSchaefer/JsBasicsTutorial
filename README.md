@@ -118,4 +118,26 @@ To change a sub-value from a object you use:
 **Best practice**: Use the Dot notation when you can because its shorter and more clear to understand.
 Use the Bracket notation when you need to do a selection at Runtime
 
+### Arrays
+Arrays are used to store values of a same kind in to one variable
+
+    let demoArray = [5,3,2,1]; //[] are a Array Literal
+
+every array has a index it always begins with a 0
+
+    let demoNames = ["Dave","Steve","Nils","Alex"];
+    console.log(demoNames[2]+" vs. "+demoNames[0]);
+
+The length and types of an array can change during runtime because js is a dynamic language
+
+    demoArrayMixed = ["Dave","Steve"];
+    demoArrayMixed[2] = 15000;
+    console.log(demoArrayMixed);
+
+A array is a object
+
+    let demoColors = ["green","red","blue"];
+    console.log("demoColor is a "+typeof  demoColors);
+    console.log("demoColor has a size of: "+demoColors.length);
+
 [Tutorial]: https://youtu.be/W6NZfCO5SIk
