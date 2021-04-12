@@ -50,3 +50,31 @@ let bool = true; //Boolean Literal
 let demoUndefined = undefined; //Undefined
 let demoNull = null;//Null
 //Null is used when a variable should be empty
+//DYNAMIC TYPING
+//In a static language a type of a variable can not be changed
+//sting demoString = "John";
+//In a dynamic language a type of a variable can be changed
+let demoVar = "John";
+console.log("demoVar is a "+typeof demoVar);
+demoVar = 5;
+console.log("demoVar is a "+typeof demoVar);
+//You can use typeof to check the type of the variable
+//REFERENCE TYPES
+//Variations of Reference types
+//1. Objects
+//2. Arrays
+//3. Functions
+//OBJECTS
+//A objects Variable with sub-values like a struct in c
+let demoPerson = {
+    demoName: "Dave",
+    demoAge: 50
+}; //{} are a Object Literal
+console.log("His Name is "+demoPerson.demoName+" and he is "+demoPerson.demoAge+" years old!");
+//to change a sub-value from a object you use:
+demoPerson.demoAge = 30; //Dot notation
+let userSelection = "demoName";
+demoPerson[userSelection] = "Otto"; //Bracket notation
+console.log("His Name is "+demoPerson.demoName+" and he is "+demoPerson.demoAge+" years old!");
+//Best practice: Use the Dot notation when you can because its shorter and more clear to understand.
+//Use the Bracket notation when you need to do a selection at Runtime

@@ -19,7 +19,7 @@ New method: use let instead of var.
 3. Variables should not start with a number
 4. Don't use spaces or hyphen to separate words use camel case instead
 
-**Exsample**:
+**Example**:
 
     let camelCaseDemoVariable = true;
 
@@ -69,7 +69,7 @@ Variations of Primitive types:
 4. undefined
 5. null
 
-**Exsample**:
+**Example**:
 
     let string ='String'; //String Literal  
     let number = 30; //Number Literal  
@@ -78,5 +78,44 @@ Variations of Primitive types:
     let demoNull = null; //Null  
 
 Null is used when a variable should be empty.
+
+## Dynamic typing
+In a static language a type of variable can not be changed
+
+    sting demoString = "John";
+
+In a dynamic language a type of variable can be changed
+
+    let demoVar = "John";
+    console.log("demoVar is a "+typeof demoVar);
+    demoVar = 5;
+    console.log("demoVar is a "+typeof demoVar);
+
+You can use typeof to check the type of the variable
+
+## Reference types
+Variations of Reference types
+1. Objects
+2. Arrays
+3. Functions
+
+### Objects
+A objects Variable with sub-values like a struct in c
+
+    let demoPerson = {
+    demoName: "Dave",
+    demoAge: 50
+    }; //{} are a Object Literal
+    console.log("His Name is "+demoPerson.demoName+" and he is "+demoPerson.demoAge+" years old!");
+
+To change a sub-value from a object you use:
+
+    demoPerson.demoAge = 30; 
+    let userSelection = "demoName";
+    demoPerson[userSelection] = "Otto"; //Bracket notation
+    console.log("His Name is "+demoPerson.demoName+" and he is "+demoPerson.demoAge+" years old!");
+
+**Best practice**: Use the Dot notation when you can because its shorter and more clear to understand.
+Use the Bracket notation when you need to do a selection at Runtime
 
 [Tutorial]: https://youtu.be/W6NZfCO5SIk
