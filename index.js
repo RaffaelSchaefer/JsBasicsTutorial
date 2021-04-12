@@ -35,3 +35,18 @@ const demoConstant = 0.3; //demoConstant cannot be reassigned
 console.log("demoConstant = "+demoConstant);
 //Best practice: If a Variable should be reassigned use a constant, then use const instead of let in your code
 //PRIMITIVE TYPES
+//In js there are two types of variables
+//1. Primitive types/Value Types
+//2. Reference types
+//Variations of Primitive types
+//1. Strings
+//2. Numbers (Int, Float)
+//3. Boolean
+//4. undefined
+//5. null
+let string ='String'; //String Literal
+let number = 30; //Number Literal
+let bool = true; //Boolean Literal
+let demoUndefined = undefined; //Undefined
+let demoNull = null;//Null
+//Null is used when a variable should be empty
