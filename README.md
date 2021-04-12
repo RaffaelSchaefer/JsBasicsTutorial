@@ -1,4 +1,4 @@
-# JS Workshop
+# JS BASICS TUTORIAL
 A small website I made to learn more about js.
 To make this project I used this [Tutorial] from Youtube
 # Contents
