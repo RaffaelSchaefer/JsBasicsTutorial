@@ -8,12 +8,12 @@
 }
 
 html {
-    font-size: 10pt;
+    font-size: 2vw;
     font-family: 'Raleway', "Lexend", Arial, sans-serif;
 }
 
 h1 {
-    font-size: 80pt;
+    font-size: 8vw;
     text-align: center;
     letter-spacing: 2px;
 }
@@ -38,7 +38,7 @@ h1 {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25pt;
+    font-size: 2vw;
 }
 
 #Container {
